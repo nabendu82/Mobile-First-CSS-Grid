@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* variables */
+:root{
+  --primary: #FFC600;
+  --secondary: #2528bb;
+}
+
+/* reset */
+body,p,a,ul,li{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+}
+li{
+  list-style-type: none;
+}
+
+/* base styles */
+body{
+  background: var(--secondary);
+  overflow-x: hidden;
+}
+.button{
+  background: none;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+  display: inline-block;
+}
+.button:hover{
+  color: #222;
+  background: var(--primary);
+}
+input,textarea{
+  background: rgba(255,255,255,0.05);
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 2px solid #9893D8;
+  color: #f2f2f2;
+}
+#welcome, #skills, footer{
+  background:#f2f2f2;
+  color: #0a065c;
+}
+nav,#portfolio,#contact{
+  color: #DDDBFF;
+}
+h1,h2,h3,h4{
+  font-weight: normal;
+  line-height: 1.4rem;
+}
+#welcome p, #skills p,#skill li, footer p{
+  color: #0d086d;
+}
+#contact p,#portfolio a,nav li, nav a{
+  color: #9893D8;
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+h1, h3{
+  font-size: 1.2rem;
+}
+h2{
+  font-size: 1.6rem;
+}
+h4{
+  font-size: 1.1rem;
+}
+.leading{
+  font-size: 1.1rem;
+}
